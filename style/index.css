@@ -1,0 +1,148 @@
+/* Body styling */
+body {
+  background-color: #46237a;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #001e38;
+  padding: 0px;
+}
+/* NavBar styling */
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+  background-color: #111;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* Main section position */
+#mainSection {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* curriculum page creation */
+#curriculumPage {
+  width: 690px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 10px 10px 10px 10px;
+  padding: 5px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+#form {
+  width: 75%;
+  height: 120px;
+  background: url(../img/python.png) no-repeat center;
+  background-color: #2a2a2c;
+}
+#form1 {
+  width: 75%;
+  height: 145px;
+  display: none;
+  background: url(../img/php.png) no-repeat center;
+  background-color: #2a2a2c;
+}
+#form2 {
+  width: 75%;
+  height: 145px;
+  display: none;
+  margin-bottom: 50px;
+  background: url(../img/js.png) no-repeat center;
+  background-color: #2a2a2c;
+}
+
+.btns {
+  padding: 5px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background-color: #808080;
+  opacity: 100%;
+  font: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  border: 0;
+  border-radius: 20px 20px 20px 20px;
+  outline: none;
+  margin: 5px;
+}
+.title {
+  display: inline;
+}
+
+.text {
+  text-align: left;
+}
+
+.text,
+.ulCurriculum {
+  display: none;
+}
+
+/* footer styling */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
